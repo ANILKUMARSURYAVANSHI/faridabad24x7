@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&subset=latin-ext');
-.main-nav-bx {
-    color: #fff;
-}
 
 .logo {
     color: #fff;
@@ -40,7 +37,7 @@
     font-size: 16px;
 }
 
-.tp-bg {
+.header-bg {
     background: #75952f;
 }
 

@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="news-head">Latest News </h2>
+      </div>
+    </div>
+    <div class="row news-list" *ngFor="let news of newsList">
+      <div class="col-md-4 col-sm-4">
+        <figure>
+          <img [src]="news.image" alt="{{news.heading}}" class="img-fluid">
+        </figure>
+
+      </div>
+      <div class="col-md-8 col-sm-8">
+        <h4>
+          <a href="#">{{news.heading}}</a>
+        </h4>
+        <p class="news-author-days">
+          <span>{{news.author}}</span> |
+          <span>{{news.days}}</span>
+        </p>
+        <p>{{news.desc}}</p>
+      </div>
+    </div>
+  </div>
+</div>

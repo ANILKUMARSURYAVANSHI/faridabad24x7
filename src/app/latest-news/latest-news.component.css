@@ -1,0 +1,6 @@
+.news-head{margin: 0 0 20px 0; color: #556f08; font-weight: 600; text-transform: uppercase; }
+.news-list{border-bottom:#ddd solid 1px; margin-bottom: 20px; padding-bottom: 20px; }
+.news-list h4{margin: 0 0 10px 0;}
+.news-list h4 a{color: #333;}
+.news-author-days{margin: 0 0 20px 0;}
+.news-author-days span{color:#556f08;}

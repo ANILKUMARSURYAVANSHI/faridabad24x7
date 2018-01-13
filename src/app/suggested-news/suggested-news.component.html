@@ -1,0 +1,22 @@
+<div class="row how-work">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="main-head">Suggested News</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="how-work-list list-unstyled">
+          <li *ngFor="let snews of suggestedNews">
+            <figure>
+              <img [src]="snews.image" alt="{{snews.title}}" class="img-fluid">
+            </figure>
+            <a href="#">{{snews.title}}</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
