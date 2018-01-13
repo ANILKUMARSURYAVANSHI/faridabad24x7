@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "project-name"
+    "name": "life-hacker"
   },
   "apps": [
     {
@@ -19,14 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "../node_modules/font-awesome/css/font-awesome.css",
-          "styles.css"
-        ],
-        "scripts": [
-          "../node_modules/jquery/dist/jquery.min.js",
-          "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-        ],
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      ],
+      "scripts": [
+        
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
