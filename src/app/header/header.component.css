@@ -5,3 +5,44 @@ header {
 .start-end {
     justify-content: flex-end
 }
+
+.top-nav {
+    background: #414a4b;
+}
+
+.smm-bx {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.smm-bx li {
+    list-style: none;
+}
+
+.smm-bx a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.smm-bx a:hover,
+.smm-bx a:focus,
+.smm-bx a.active {
+    background: rgba(255, 255, 255, 0.1)
+}
+
+.menu-bx {
+    background: #1aa3d5;
+}
+
+.menu-bx .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.menu-bx .navbar-nav .nav-link:hover {
+    background: rgba(0, 0, 0, .1);
+}

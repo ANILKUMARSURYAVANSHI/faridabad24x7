@@ -6,6 +6,7 @@ import { LatestNewsComponent } from './latest-news/latest-news.component';
 import { SuggestedNewsComponent } from './suggested-news/suggested-news.component';
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { FooterComponent } from './footer/footer.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 
 
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,7 +11,8 @@ export class HeaderComponent  {
   constructor() { }
 
   ngOnInit() { }
-  menus:string[] = ['LIFE', 'TECH', 'HEALTH', 'PRODUCTIVITY', 'JUGAAD WORK', 'MONEY', 'HOW I WORK', 'GALLERY'];
+  menus:any[] = ['LIFE', 'TECH', 'HEALTH', 'PRODUCTIVITY', 'JUGAAD WORK', 'MONEY', 'HOW I WORK', 'GALLERY'];
+  smm:any[] = [];
   
 
 }
