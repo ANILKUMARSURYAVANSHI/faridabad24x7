@@ -18,7 +18,7 @@ export class LatestNewsComponent implements OnInit {
     {
       id: 1,
       image:"../../assets/images/news-image.jpg",
-      heading: "Use Treats to Make a Pet Food 'Seasoning' to Trick Fido Into Eating",
+      heading: "2 Use Treats to Make a Pet Food 'Seasoning' to Trick Fido Into Eating",
       author: "Emily Price",
       days: "5",
       desc: "We all know that sitting for long periods of time is bad for our health, but remembering to get up and takes break ..."
@@ -26,7 +26,7 @@ export class LatestNewsComponent implements OnInit {
     {
       id: 2,
       image:"../../assets/images/news-image.jpg",
-      heading: "Use Treats to Make a Pet Food 'Seasoning' to Trick Fido Into Eating",
+      heading: "3 Use Treats to Make a Pet Food 'Seasoning' to Trick Fido Into Eating",
       author: "Emily Price",
       days: "5",
       desc: "We all know that sitting for long periods of time is bad for our health, but remembering to get up and takes break ..."

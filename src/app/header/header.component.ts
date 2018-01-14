@@ -10,7 +10,8 @@ export class HeaderComponent  {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+  menus:string[] = ['LIFE', 'TECH', 'HEALTH', 'PRODUCTIVITY', 'JUGAAD WORK', 'MONEY', 'HOW I WORK', 'GALLERY'];
+  
 
 }
