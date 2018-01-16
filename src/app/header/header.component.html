@@ -1,11 +1,6 @@
 <header>
     <div class="top-nav">
         <div class="container">
-            <!-- <ul class="contact-bx">
-                <li>
-                    <a href="#"> </a>
-                </li>
-            </ul> -->
             <ul class="smm-bx">
                 <li>
                     <a href="#"> <i class="fa fa-facebook"></i> </a>
@@ -31,12 +26,13 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Fixed navbar</a>
+            <a class="navbar-brand logo" href="#"> Faridabad<span>24x7</span> </a>
             <div class="collapse navbar-collapse start-end" id="navbarCollapse">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav cus-navbar">
                     <li class="nav-item" *ngFor="let menu of menus">
-                        <a class="nav-link" href="#"> {{menu}}</a>
+                        <a class="nav-link" href="#"> {{menu.value}}</a>
                     </li>
+
                 </ul>
             </div>
         </div>
