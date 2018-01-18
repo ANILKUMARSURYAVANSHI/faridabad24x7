@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule} from '@angular/router';
+import { appRoutes } from './routes';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from "./header/header.component";
 import { LatestNewsComponent } from './latest-news/latest-news.component';
@@ -7,6 +9,9 @@ import { SuggestedNewsComponent } from './suggested-news/suggested-news.componen
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { FooterComponent } from './footer/footer.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { LatestNewsDetailComponent } from './latest-news/latest-news-detail/latest-news-detail.component';
+import { NewsService } from './shared/news.service';
+
 
 
 
@@ -18,13 +23,17 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     SuggestedNewsComponent,
     HomeCarouselComponent,
     FooterComponent,
+    LatestNewsDetailComponent,
     
   ],
   imports: [
     BrowserModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [
+    NewsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
