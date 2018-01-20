@@ -5,7 +5,7 @@
                 <h2 class="news-head">Latest News </h2>
             </div>
         </div>
-        <div class="row news-list" *ngFor="let news of newsList" [routerLink]="['latest-news/latest-news-detail', news.id]">
+        <div class="row news-list" *ngFor="let news of newsList" [routerLink]="['latest-news-detail', news.id]">
             <div class="col-md-4 col-sm-4">
                 <figure>
                     <img [src]="news.image" alt="{{news.heading}}" class="img-fluid">
