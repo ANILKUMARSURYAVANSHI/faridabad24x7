@@ -1,23 +1,42 @@
 <header>
     <div class="top-nav">
-        <div class="container">
-            <ul class="smm-bx">
-                <li>
-                    <a href="#"> <i class="fa fa-facebook"></i> </a>
-                </li>
-                <li>
-                    <a href="#"> <i class="fa fa-twitter"></i> </a>
-                </li>
-                <li>
-                    <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                </li>
-                <li>
-                    <a href="#"> <i class="fa fa-google-plus"></i> </a>
-                </li>
-                <li>
-                    <a href="#"> <i class="fa fa-rss"></i> </a>
-                </li>
-            </ul>
+        <div class="header-top dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-8 col-lg-8">
+                        <ul class="contact-bx">
+                            <li><i class="fa fa-phone pr-1 pl-2"></i><a href="#">+12 123 123 123</a></li>
+                            <li><i class="fa fa-envelope-o pr-1 pl-2"></i> <a href="#">theproject@mail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-lg-4">
+                        <div>
+                            <ul class="smm-bx">
+                                <li>
+                                    <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-google-plus"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-rss"></i> </a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                        <!-- header-top-first end -->
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
     <!-- navbar -->
@@ -32,9 +51,9 @@
                     <li class="nav-item" *ngFor="let menu of menus">
                         <a class="nav-link" href="#"> {{menu.value}}</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
+
 </header>

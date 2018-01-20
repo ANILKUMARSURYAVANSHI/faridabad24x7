@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,800'); */
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Raleway:300,400,500,800');
 header {
     margin-bottom: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .2)
@@ -9,7 +11,8 @@ header {
 }
 
 .top-nav {
-    background: #14b1bb;
+    background: #2e3537;
+    /* #14b1bb */
 }
 
 .smm-bx {
@@ -17,15 +20,28 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     margin: 0;
+    padding: 0;
 }
 
-.logo {
+.logo,
+.logo:hover,
+.logo.active,
+.logo:focus {
     font-family: 'Berkshire Swash', cursive;
     color: #06b3ac;
     font-size: 30px;
+    transition: all 0.3s ease-in-out;
+    padding: 15px 10px;
 }
 
-.logo>span {
+.logo:hover,
+.logo.active,
+.logo:focus {
+    transform: scale(1.01, 1.01);
+}
+
+.logo>span,
+logo>span:hover {
     display: inline-block;
     color: #53504a;
 }
@@ -35,11 +51,11 @@ header {
 }
 
 .smm-bx a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     display: block;
-    padding: 10px;
-    font-size: 12px;
+    padding: 14px 10px;
+    font-size: 14px;
 }
 
 .smm-bx a:hover,
@@ -55,9 +71,52 @@ header {
 
 .menu-bx .navbar-nav .nav-link {
     color: #333;
-    padding: 20px;
+    padding: 25px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .menu-bx .navbar-nav .nav-link:hover {
     background: rgba(0, 0, 0, .1);
+}
+
+.menu-bx .navbar-toggler {
+    background: #06b3ac;
+    top: 12px;
+    cursor: pointer;
+    right: 20px;
+}
+
+.contact-bx {
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.contact-bx li {
+    list-style: none;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-bx li>a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+@media (max-width:576px) {
+    .menu-bx .container {
+        margin: 0;
+    }
+    .smm-bx,
+    .contact-bx {
+        justify-content: center;
+    }
+    .contact-bx {
+        display: block;
+        text-align: center;
+    }
 }
