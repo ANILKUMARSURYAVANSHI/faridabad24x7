@@ -1,9 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,800'); */
-
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Raleway:300,400,500,800');
 header {
-    margin-bottom: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2)
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
 }
 
 .start-end {
@@ -11,7 +10,7 @@ header {
 }
 
 .top-nav {
-    background: #2e3537;
+    background: #f4f4f4;
     /* #14b1bb */
 }
 
@@ -28,7 +27,7 @@ header {
 .logo.active,
 .logo:focus {
     font-family: 'Berkshire Swash', cursive;
-    color: #06b3ac;
+    color: #ff793e;
     font-size: 30px;
     transition: all 0.3s ease-in-out;
     padding: 15px 10px;
@@ -51,17 +50,17 @@ logo>span:hover {
 }
 
 .smm-bx a {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     display: block;
-    padding: 14px 10px;
+    padding: 10px;
     font-size: 14px;
 }
 
 .smm-bx a:hover,
 .smm-bx a:focus,
 .smm-bx a.active {
-    background: rgba(255, 255, 255, 0.1)
+    background: rgba(255, 255, 255, 0.9)
 }
 
 .menu-bx {
@@ -70,20 +69,21 @@ logo>span:hover {
 }
 
 .menu-bx .navbar-nav .nav-link {
-    color: #333;
+    color: rgb(70, 69, 69);
     padding: 25px 15px;
-    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: normal;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu-bx .navbar-nav .nav-link:hover {
-    background: rgba(0, 0, 0, .1);
+    background: #ff793e;
+    color: #fff;
 }
 
 .menu-bx .navbar-toggler {
-    background: #06b3ac;
-    top: 12px;
+    background: #ff793e;
+    top: 17px;
     cursor: pointer;
     right: 20px;
 }
@@ -99,12 +99,13 @@ logo>span:hover {
 .contact-bx li {
     list-style: none;
     margin-right: 10px;
-    color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-bx li>a {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 @media (max-width:576px) {
